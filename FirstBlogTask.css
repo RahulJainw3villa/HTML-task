@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heading {
+  padding: 20px;
+
+  text-align: center;
+}
+
+.post {
+  display: flex;
+  margin: 20px 80px;
+}
+.post .postdes {
+  width: 40%;
+  height: 40%;
+  border: 1px solid black;
+  padding: 15px;
+}
+
+.post .item {
+  margin-left: 20px;
+}
+
+.post .postdes h1,
+p,
+button {
+  padding: 10px;
+}
+
+.post .postdes h1 {
+  color: blue;
+}
+
+.post .postdes button {
+  color: white;
+  background: black;
+  border: 1px solid red;
+  border-radius: 20px;
+}
